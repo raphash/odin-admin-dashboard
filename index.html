@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <title>The Odin Project - Admin Dashboard</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <a href="/" class="title">
+          <span class="mdi mdi-view-dashboard icon"></span>
+          <p>Dashboard</p>
+        </a>
+
+        <ul class="navigation">
+          <li>
+            <span class="mdi mdi-home icon"></span>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <span class="mdi mdi-card-account-details-outline icon"></span>
+            <a href="#profile">Profile</a>
+          </li>
+          <li>
+            <span class="mdi mdi-message-reply icon"></span>
+            <a href="#messages">Messages</a>
+          </li>
+          <li>
+            <span class="mdi mdi-clock-time-three icon"></span>
+            <a href="#history">History</a>
+          </li>
+          <li>
+            <span class="mdi mdi-file-multiple icon"></span>
+            <a href="#tasks">Tasks</a>
+          </li>
+          <li>
+            <span class="mdi mdi-account-group icon"></span>
+            <a href="#communites">Communities</a>
+          </li>
+        </ul>
+
+        <ul class="branding">
+          <li>
+            <span class="mdi mdi-cog icon"></span>
+            <a href="#settings">Settings</a>
+          </li>
+          <li>
+            <span class="mdi mdi-help-box icon"></span>
+            <a href="#support">Support</a>
+          </li>
+          <li>
+            <span class="mdi mdi-view-dashboard icon"></span>
+            <a href="#privacy">Privacy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <div class="top">
+            <div class="search">
+              <span class="mdi mdi-magnify icon"></span>
+              <input type="text" id="search" autocomplete="off">
+            </div>
+
+            <div class="user">
+              <span class="mdi mdi-bell-ring-outline icon"></span>
+
+              <img src="images/yellow-panda.jpg" alt="User's Profile Picture" class="profile-picture"
+                title="Image by pngtree">
+
+              <p class="username">Morgan Oakley</p>
+            </div>
+          </div>
+
+          <div class="bottom">
+            <div class="user">
+              <img src="images/yellow-panda.jpg" alt="User's Profile Picture" class="profile-picture"
+                title="image by pngtree">
+
+              <div class="username">
+                <p class="message">Hi there,</p>
+                <p class="username">Morgan Oakley (@morgan)</p>
+              </div>
+            </div>
+
+            <div class="actions">
+              <button type="button">New</button>
+              <button type="button">Upload</button>
+              <button type="button">Share</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="cards">
+            <h3>Your Projects</h3>
+
+            <div class="grid">
+              <div class="card">
+                <h4 class="title">Super Cool Project</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h4 class="title">Less Cool Project</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h4 class="title">Impossible App</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h4 class="title">Easy Peasy App</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h4 class="title">Ad Blocker</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+
+              <div class="card">
+                <h4 class="title">Money Maker</h4>
+
+                <p class="content">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatem quis quia. Inventore unde
+                  temporibus praesentium dolor libero rerum, quam accusantium explicabo repellendus commodi maiores.
+                </p>
+
+                <div class="buttons">
+                  <span class="mdi mdi-star-plus-outline icon"></span>
+                  <span class="mdi mdi-eye-plus-outline icon"></span>
+                  <span class="mdi mdi-source-fork icon"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rightbar">
+            <h3>Announcements</h3>
+
+            <div class="ads">
+              <div class="ad">
+                <h5 class="title">Site Maintenance</h5>
+
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Accusantium ratione
+                  sit nisi inventore?
+                </p>
+              </div>
+
+              <div class="ad">
+                <h5 class="title">Community Share Day</h5>
+
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Accusantium ratione
+                  sit nisi inventore?
+                </p>
+              </div>
+
+              <div class="ad">
+                <h5 class="title">Updated Privacy Policy</h5>
+
+                <p class="content">
+                  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Accusantium ratione
+                  sit nisi inventore?
+                </p>
+              </div>
+            </div>
+
+            <h3>Trending</h3>
+
+            <div class="trending">
+              <div class="profiles">
+                <div class="profile">
+                  <img src="images/orange-panda.jpg" alt="Trending's Profile Picture" class="profile-picture">
+                  <div class="profile-info">
+                    <p class="profile-id">@tegan</p>
+                    <p class="profile-desc">World Peace Builder</p>
+                  </div>
+                </div>
+
+                <div class="profile">
+                  <img src="images/yellow-panda.jpg" alt="Trending's Profile Picture" class="profile-picture">
+                  <div class="profile-info">
+                    <p class="profile-id">@tegan</p>
+                    <p class="profile-desc">World Peace Builder</p>
+                  </div>
+                </div>
+
+                <div class="profile">
+                  <img src="images/purple-panda.jpg" alt="Trending's Profile Picture" class="profile-picture">
+                  <div class="profile-info">
+                    <p class="profile-id">@tegan</p>
+                    <p class="profile-desc">World Peace Builder</p>
+                  </div>
+                </div>
+
+                <div class="profile">
+                  <img src="images/red-panda.jpg" alt="Trending's Profile Picture" class="profile-picture">
+                  <div class="profile-info">
+                    <p class="profile-id">@tegan</p>
+                    <p class="profile-desc">World Peace Builder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
