@@ -201,6 +201,13 @@ body {
 
 .main .content h3 {
   grid-column: 1 / -1;
+  font-family: "Roboto Medium";
+  font-weight: normal;
+}
+
+.main .title {
+  font-family: "Roboto Medium";
+  font-weight: normal;
 }
 
 .main .cards {
